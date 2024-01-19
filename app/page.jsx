@@ -1,5 +1,7 @@
 // import Feed from "@components/Feed";
 
+import Link from "next/link";
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col ">
@@ -10,6 +12,10 @@ const Home = () => {
         PromptHub is an open-source platform for discovering and sharing AI
         prompts.
       </p>
+      <button style={{marginTop:'20px', color:'orange'}} > <Link href="https://github.com/"
+
+      >GITHUB</Link></button>
+     
       {/* <Feed /> */}
     </section>
   );

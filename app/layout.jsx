@@ -1,6 +1,8 @@
 import "@styles/globals.css";
 // import Provider from "@components/Provider";
 import Favicon from "../public/assets/images/logo.svg";
+import Nav from "@components/Nav";
+import Provider from "@components/Provider";
 
 export const metadata = {
   title: "PromptHub",
@@ -18,11 +20,11 @@ const RootLayout = ({ children }) => {
             <div className="gradient"></div>
           </div>
           <main className="app">
-            {/* <Nav /> */}
+            <Nav />
             {children}
           </main>
         </body>
-      {/* </Provider> */}
+       {/* </Provider> */}
     </html>
   );
 };
